@@ -1,0 +1,10 @@
+<launch>
+
+    <node pkg="vrep_obstacle_avoidance" type="vrep_obstacle_avoidance_node" name="vrep_obstacle_avoidance">
+    </node>
+
+    <node pkg="image_view" type="image_view" name="image_view">
+        <remap from="/image" to="/kamera"/>
+    </node>
+    
+</launch>
