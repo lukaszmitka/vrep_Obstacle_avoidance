@@ -3,7 +3,6 @@ project(vrep_obstacle_avoidance)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  vrep_common
 )
 
 catkin_package(

@@ -6,7 +6,6 @@
 #define VREP_OBSTACLE_AVOIDANCE_MAIN_H
 
 #include "ros/ros.h"
-#include "vrep_common/ProximitySensorData.h"
 #include "sensor_msgs/Range.h"
 #include "std_msgs/Float64.h"
 
